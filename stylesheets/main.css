@@ -3,7 +3,7 @@
 }
 
 .title {
-    margin-top: 20px;
+    margin-top: 32px;
     margin-bottom: 60px;
     text-align: center;
 }
@@ -30,14 +30,14 @@ h4 {
     font-weight: bold;
 }
 
-.headshot {
-    margin-top: 50px;
-    text-align: center;
-    filter: grayscale(0%);
-}
+.banner {
+    filter: grayscale(100%);
+    margin: 0 auto;
+    padding: 0;
+    img {
+        border-radius: 0px;
+    }
 
-.headshot:hover {
-    filter: grayscale(0%);
 }
 
 .links {
@@ -86,9 +86,8 @@ img {
 
 body {
     font-family: Arial, sans-serif;
-    padding: 20px;
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .masonry {
@@ -96,7 +95,7 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(300px, 0.4fr));
     grid-auto-rows: 10px;
     gap: 20px;
-    margin-top: 50px;
+    margin: 50px 20px 20px 20px;
 
     img {
         width: 100%;
@@ -125,7 +124,7 @@ body {
   display: inline-block;
   padding: 0 12px;
   height: 26px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 26px;
   border-radius: 25px;
   background-color: #f6f6f6;
