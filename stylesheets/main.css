@@ -87,7 +87,7 @@ img {
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .masonry {
@@ -140,11 +140,11 @@ body {
 }
 
 .item2 {
-    grid-row: span 15;
+    grid-row: span 16;
 }
 
 .item3 {
-    grid-row: span 17;
+    grid-row: span 18;
 }
 
 .item4 {
@@ -152,31 +152,31 @@ body {
 }
 
 .item5 {
-    grid-row: span 15;
+    grid-row: span 16;
 }
 
 .item6 {
-    grid-row: span 11;
-}
-
-.item7 {
     grid-row: span 12;
 }
 
+.item7 {
+    grid-row: span 13;
+}
+
 .item8 {
-    grid-row: span 8;
+    grid-row: span 9;
 }
 
 .grid-wrapper {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
   grid-gap: 10px;
   text-align: center;
   margin-bottom: 30px;
   margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
-  width: 900px;
+  width: 920px;
 }
 
 .box {
