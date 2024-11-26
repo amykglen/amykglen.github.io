@@ -128,23 +128,23 @@ body {
 }
 
 .item1 {
-    grid-row: span 15;
+    grid-row: span 16;
 }
 
 .item2 {
-    grid-row: span 15;
+    grid-row: span 16;
 }
 
 .item3 {
-    grid-row: span 11;
+    grid-row: span 17;
 }
 
 .item4 {
-    grid-row: span 8;
+    grid-row: span 9;
 }
 
 .item5 {
-    grid-row: span 10;
+    grid-row: span 11;
 }
 
 .item6 {
@@ -152,7 +152,7 @@ body {
 }
 
 .item7 {
-    grid-row: span 15;
+    grid-row: span 16;
 }
 
 .item8 {
@@ -160,15 +160,15 @@ body {
 }
 
 .item9 {
-    grid-row: span 15;
+    grid-row: span 16;
 }
 
 .item10 {
-    grid-row: span 15;
+    grid-row: span 16;
 }
 
 .item11 {
-    grid-row: span 17;
+    grid-row: span 18;
 }
 
 .item12 {
@@ -222,6 +222,10 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
+
+  img {
+  border-radius: 5px 5px 0 0;
+}
 }
 
 .card-link {
@@ -230,10 +234,6 @@ body {
 
 .card-link:hover {
     color: black;
-}
-
-img {
-  border-radius: 5px 5px 0 0;
 }
 
 .card-title {
