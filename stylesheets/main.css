@@ -245,9 +245,11 @@ table {
     font-size: 17px;
 }
 
-td {
-    vertical-align: baseline;
-    padding: 7px;
+.publications-table {
+    td {
+        vertical-align: baseline;
+        padding: 7px;
+    }
 }
 
 
@@ -262,6 +264,16 @@ td {
     margin-top: 16px;
 }
 
-.journal {
+.education-wrapper {
+    margin-top: 50px;
 
+    table {
+        margin: 0 auto;
+    }
+}
+
+.education-table {
+    td {
+        padding: 2px 4px 2px 4px;
+    }
 }
