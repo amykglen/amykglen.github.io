@@ -294,6 +294,12 @@ table {
     }
 }
 
+.work-table {
+    tr {
+        line-height: 36px;
+    }
+}
+
 .work-cell {
     width: 48px;
     font-size: 12px;
@@ -306,57 +312,46 @@ table {
     padding-bottom: 4px;
 }
 
-.width-one {
-    width: 60px;
-}
-
-.width-two {
-    width: 120px;
-}
-
-.width-three {
-    width: 180px;
-}
-
-.width-four {
-    width: 240px;
-}
-
-.width-five {
-    width: 300px;
-}
-
-.width-six {
-    width: 360px;
-}
-
-.width-seven {
-    width: 420px;
-}
-
-.width-eight {
-    width: 480px;
-}
-
-.width-nine {
-    width: 540px;
-}
-
 .timebar {
     width: 100%;
-    height: 12px;
     border-radius: 10px;
     background-color: #f4f4f4;
     font-size: 10px;
     text-align: center;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    height: 10px;
+}
 
-    .timebar-text {
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
-        color: #555;
-    }
+.timebar-strip {
+    height: 100%;
+}
+
+.data-integration {
+    background-color: #F8D5B4;
+}
+
+/* Thank you https://stripesgenerator.com/ */
+.all-five-stripes {
+    background-image: linear-gradient(180deg, #fae0c7 10%, #c8ece3 10%, #c8ece3 20%, #facaca 20%, #facaca 30%, #deddc2 30%, #deddc2 40%, #ecd4de 40%, #ecd4de 50%, #fae0c7 50%, #fae0c7 60%, #c8ece3 60%, #c8ece3 70%, #facaca 70%, #facaca 80%, #deddc2 80%, #deddc2 90%, #ecd4de 90%, #ecd4de 100%);
+    background-size: 70.00px 70.00px;
+    height: 35px;
+}
+
+.peach-pearl-purple-stripes {
+    background-image: linear-gradient(180deg, #fae0c7 16.67%, #deddc2 16.67%, #deddc2 33.33%, #ecd4de 33.33%, #ecd4de 50%, #fae0c7 50%, #fae0c7 66.67%, #deddc2 66.67%, #deddc2 83.33%, #ecd4de 83.33%, #ecd4de 100%);
+    background-size: 42.00px 42.00px;
+    height: 21px;
+}
+
+.peach-pearl-stripes {
+    background-image: linear-gradient(180deg, #fae0c7 25%, #deddc2 25%, #deddc2 50%, #fae0c7 50%, #fae0c7 75%, #deddc2 75%, #deddc2 100%);
+    background-size: 28.00px 28.00px;
+    height: 14px;
+}
+
+.peach-purple-stripes {
+    background-image: linear-gradient(180deg, #fae0c7 25%, #ecd4de 25%, #ecd4de 50%, #fae0c7 50%, #fae0c7 75%, #ecd4de 75%, #ecd4de 100%);
+    background-size: 28.00px 28.00px;
+    height: 14px;
 }
 
 .active {
@@ -373,4 +368,29 @@ table {
     text-align: center;
     margin-top: 20px;
     font-size: 16px;
+}
+
+.chip-legend {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.peach {
+    background-color: #fae0c7;
+}
+
+.mint {
+    background-color: #c8ece3;
+}
+
+.melon {
+    background-color: #facaca;
+}
+
+.pearl {
+    background-color: #deddc2;
+}
+
+.purple {
+    background-color: #ecd4de;
 }
