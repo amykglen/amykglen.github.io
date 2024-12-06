@@ -326,27 +326,27 @@ table {
 
 /* Thank you https://stripesgenerator.com/ */
 .all-five-stripes {
-    background-image: linear-gradient(180deg, #fae0c7 10%, #c8ece3 10%, #c8ece3 20%, #facaca 20%, #facaca 30%, #deddc2 30%, #deddc2 40%, #ecd4de 40%, #ecd4de 50%, #fae0c7 50%, #fae0c7 60%, #c8ece3 60%, #c8ece3 70%, #facaca 70%, #facaca 80%, #deddc2 80%, #deddc2 90%, #ecd4de 90%, #ecd4de 100%);
+    background-image: linear-gradient(180deg, #f8b4b4 10%, #c8ece3 10%, #c8ece3 20%, #d4d2af 20%, #d4d2af 30%, #f8d5b5 30%, #f8d5b5 40%, #e6c6d4 40%, #e6c6d4 50%, #f8b4b4 50%, #f8b4b4 60%, #c8ece3 60%, #c8ece3 70%, #d4d2af 70%, #d4d2af 80%, #f8d5b5 80%, #f8d5b5 90%, #e6c6d4 90%, #e6c6d4 100%);
     background-size: 70.00px 70.00px;
     height: 35px;
 }
 
-.peach-pearl-purple-stripes {
-    background-image: linear-gradient(180deg, #fae0c7 16.67%, #deddc2 16.67%, #deddc2 33.33%, #ecd4de 33.33%, #ecd4de 50%, #fae0c7 50%, #fae0c7 66.67%, #deddc2 66.67%, #deddc2 83.33%, #ecd4de 83.33%, #ecd4de 100%);
+.cv-stripes {
+    background-image: linear-gradient(180deg, #f8b4b4 25%, #c8ece3 25%, #c8ece3 50%, #f8b4b4 50%, #f8b4b4 75%, #c8ece3 75%, #c8ece3 100%);
+    background-size: 28.00px 28.00px;
+    height: 14px;
+}
+
+.vr-stripes {
+    background-image: linear-gradient(180deg, #f8b4b4 25%, #f8d5b5 25%, #f8d5b5 50%, #f8b4b4 50%, #f8b4b4 75%, #f8d5b5 75%, #f8d5b5 100%);
+    background-size: 28.00px 28.00px;
+    height: 14px;
+}
+
+.dtx-stripes {
+    background-image: linear-gradient(180deg, #f8b4b4 16.67%, #c8ece3 16.67%, #c8ece3 33.33%, #f8d5b5 33.33%, #f8d5b5 50%, #f8b4b4 50%, #f8b4b4 66.67%, #c8ece3 66.67%, #c8ece3 83.33%, #f8d5b5 83.33%, #f8d5b5 100%);
     background-size: 42.00px 42.00px;
     height: 21px;
-}
-
-.peach-pearl-stripes {
-    background-image: linear-gradient(180deg, #fae0c7 25%, #deddc2 25%, #deddc2 50%, #fae0c7 50%, #fae0c7 75%, #deddc2 75%, #deddc2 100%);
-    background-size: 28.00px 28.00px;
-    height: 14px;
-}
-
-.peach-purple-stripes {
-    background-image: linear-gradient(180deg, #fae0c7 25%, #ecd4de 25%, #ecd4de 50%, #fae0c7 50%, #fae0c7 75%, #ecd4de 75%, #ecd4de 100%);
-    background-size: 28.00px 28.00px;
-    height: 14px;
 }
 
 .active {
@@ -366,21 +366,21 @@ table {
 }
 
 .peach {
-    background-color: #fae0c7;
+    background-color: #f8d5b5;
 }
 
 .mint {
-    background-color: #c8ece3;
+    background-color: #C8ECE3;
 }
 
 .melon {
-    background-color: #facaca;
+    background-color: #F8B4B4;
 }
 
 .pearl {
-    background-color: #deddc2;
+    background-color: #D4D2AF;
 }
 
 .purple {
-    background-color: #ecd4de;
+    background-color: #E6C6D4;
 }
