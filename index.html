@@ -2,6 +2,7 @@
 <link rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap">
 <link rel="icon" type="image/png" sizes=32x32 href="/docs/assets/BulbLayer.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 
 <head><title>Amy Glen</title></head>
@@ -19,6 +20,17 @@
 
 <div class="banner">
     <img src="/docs/assets/deadmtn_banner_shortest.png">
+
+    <nav class="toolbar">
+        <ul class="toolbar-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#highlighted-works">Highlighted works</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#beyond-work">Beyond work</a></li>
+            <li><a href="/docs/assets/CV_AmyGlen_public.pdf" target="_blank">CV</a></li>
+        </ul>
+    </nav>
 </div>
 
 <div class="profile-pic-container">
@@ -28,7 +40,7 @@
 
 <div class="about">
 
-    <div class="title">
+    <div class="title" id="about">
         <h1>Amy Glen</h1>
         <h4>Postdoctoral Researcher at Oregon State University</h4>
         <h4>Ph.D. in Computer Science</h4>
@@ -37,8 +49,14 @@
             <a href="https://linkedin.com/in/amy-glen-abbaa9296" target="_blank">LinkedIn</a> &nbsp;&bull;&nbsp;
             <a href="/docs/assets/CV_AmyGlen_public.pdf" target="_blank">CV</a> &nbsp;&bull;&nbsp;
             <a href="https://scholar.google.com/citations?user=cmeSU3sAAAAJ&hl=en&oi=ao" target="_blank">Google
-                Scholar</a>
+                Scholar</a> &nbsp;&bull;&nbsp;
+            <div class="email-icon">
+                <a href="mailto:glena@eecs.oregonstate.edu">
+                    <i class="far fa-envelope"></i>
+                </a>
+            </div>
         </div>
+
         <div class="chip-container">
             <div class="chip">knowledge graphs</div>
             <div class="chip">bioinformatics</div>
@@ -49,33 +67,37 @@
     </div>
 
 
-    <p>I'm a <span class="bold">computer scientist</span> working on methods for gleaning insights from
-        <span class="bold">biomedical data</span>. In particular, my research focuses on biomedical <span class="bold">knowledge
+    <div>
+        <p>I'm a <span class="bold">computer scientist</span> working on methods for gleaning insights from
+            <span class="bold">biomedical data</span>. In particular, my research focuses on biomedical <span
+                    class="bold">knowledge
         graphs</span>&mdash;building them, serving them, and reasoning across them.
-    </p>
+        </p>
 
-    <p>Better <i>data integration</i> means
-        better <i>data mining</i>, and knowledge graphs are a great substrate for both of those tasks.</p>
+        <p>Better <i>data integration</i> means
+            better <i>data mining</i>, and knowledge graphs are a great substrate for both of those tasks.</p>
 
-    <p>For the last five years, I've worked on the NIH's
-        <a href="https://ncats.nih.gov/research/research-activities/translator" target="_blank">NCATS Biomedical
-            Data
-            Translator</a> project, serving as an architect and primary technical lead for our team's
-        <a href="https://doi.org/10.1186/s12859-022-04932-3" target="_blank">biomedical knowledge graph</a> and
-        <a href="https://doi.org/10.1093/bioinformatics/btad082" target="_blank">reasoning engine</a> at
-        Oregon State University.
-    </p>
+        <p>For the last five years, I've worked on the NIH's
+            <a href="https://ncats.nih.gov/research/research-activities/translator" target="_blank">NCATS Biomedical
+                Data
+                Translator</a> project, serving as an architect and primary technical lead for our team's
+            <a href="https://doi.org/10.1186/s12859-022-04932-3" target="_blank">biomedical knowledge graph</a> and
+            <a href="https://doi.org/10.1093/bioinformatics/btad082" target="_blank">reasoning engine</a> at
+            Oregon State University.
+        </p>
 
-    <p>Prior to that, I
-        spent six years working in industry on data projects in the life sciences, in roles ranging from analyst to
-        product manager to software engineer.</p>
+        <p>Prior to that, I
+            spent six years working in industry on data projects in the life sciences, in roles ranging from analyst to
+            product manager to software engineer.</p>
 
-    <p>I've also co-founded companies in the biomedical data space, focused on
-        <a href="https://ploverai.io" target="_blank">enhancing biomedical literature search tools</a> with
-        integration of clinical trial information and providing
-        evidence-focused <a href="https://www.info.dtxintelligence.com" target="_blank">competitive
-            intelligence for digital therapeutics</a>.
-    </p>
+        <p>I've also co-founded companies in the biomedical data space, focused on
+            <a href="https://ploverai.io" target="_blank">enhancing biomedical literature search tools</a> with
+            integration of clinical trial information and providing
+            evidence-focused <a href="https://www.info.dtxintelligence.com" target="_blank">competitive
+                intelligence for digital therapeutics</a>.
+        </p>
+
+    </div>
 
     <div class="education-wrapper">
         <table class="education-table">
@@ -99,7 +121,7 @@
 
 <div class="grid-sections-wrapper">
 
-    <h2 class="section-heading">Highlighted works</h2>
+    <h2 class="section-heading" id="highlighted-works">Highlighted works</h2>
 
     <div class="grid-wrapper">
 
@@ -232,7 +254,7 @@
 
     </div>
 
-    <h2 class="section-heading">Experience</h2>
+    <h2 class="section-heading" id="experience">Experience</h2>
 
     <div class="chip-legend">
         <div class="chip purple">knowledge graphs</div>
@@ -392,7 +414,7 @@
 
 
 <div class="about">
-    <h2 class="section-heading">Publications</h2>
+    <h2 class="section-heading" id="publications">Publications</h2>
 
     <table class="publications-table">
         <tr>
@@ -420,8 +442,10 @@
         </tr>
         <tr>
             <td>2024</td>
-            <td>Computational methods for integrating and querying biomedical knowledge to facilitate translational science
-                <div class="authors"><span class="bold">A. K. Glen</span>. Ph.D. dissertation. <i>Embargoed for publication until June 2025</i>.
+            <td>Computational methods for integrating and querying biomedical knowledge to facilitate translational
+                science
+                <div class="authors"><span class="bold">A. K. Glen</span>. Ph.D. dissertation. <i>Embargoed for
+                    publication until June 2025</i>.
                 </div>
             </td>
             <td class="journal">Oregon State University</td>
@@ -497,7 +521,7 @@
     <div class="note">* These authors contributed equally to the work.</div>
 
 
-    <h2 class="section-heading">Beyond work</h2>
+    <h2 class="section-heading" id="beyond-work">Beyond work</h2>
     <p>I grew up in Anchorage, Alaska, and have always enjoyed spending time outdoors. In my earlier years, I competed
         as a professional cross-country skier. These days, I still ski, though mostly downhill, and I'm also a big fan
         of mountain biking.</p>
