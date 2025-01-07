@@ -143,6 +143,26 @@ body {
     filter: grayscale(0%);
 }
 
+.item:hover .photo-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.photo-tooltip {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(72, 72, 72, 0.8);
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
 .chip {
   font-family: Arial, sans-serif;
   display: inline-block;
