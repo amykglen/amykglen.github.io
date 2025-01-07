@@ -3,13 +3,13 @@
 }
 
 .title {
-    margin-top: 32px;
+    margin-top: 18px;
     margin-bottom: 60px;
     text-align: center;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 42px;
     margin-bottom: 12px;
     margin-top: 5px;
 }
@@ -31,13 +31,30 @@ h4 {
 }
 
 .banner {
-    filter: grayscale(100%);
+    text-align: center;
     margin: 0 auto;
     padding: 0;
+
     img {
+        width: 100%;
         border-radius: 0px;
     }
+}
 
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -125px;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    object-position: center top; /* Adjusts the image position within container, moves it up */
+    filter: grayscale(100%);
 }
 
 .links {
@@ -102,7 +119,7 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(300px, 0.4fr));
     grid-auto-rows: 10px;
     gap: 20px;
-    margin: 0px 20px 20px 20px;
+    margin: 30px 20px 20px 20px;
 
     img {
         width: 100%;
