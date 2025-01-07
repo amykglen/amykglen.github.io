@@ -316,8 +316,8 @@ table {
 }
 
 .row-label-cell {
-    text-align: right;
-    padding: 1px 7px 1px 1px;
+    text-align: left;
+    padding: 1px 1px 1px 7px;
     font-size: 17px;
 }
 
@@ -351,8 +351,8 @@ table {
 }
 
 .active {
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
 }
 
 .for-more {
