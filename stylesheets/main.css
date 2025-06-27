@@ -186,7 +186,7 @@ body {
   display: inline-block;
   padding: 0 12px;
   height: 26px;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 26px;
   border-radius: 25px;
   background-color: #f5f5f5;
@@ -532,7 +532,7 @@ table {
 
 footer {
     font-size: 12px;
-    color: grey;
+    color: #444;
     margin-left: 20px;
     margin-bottom: 10px;
 }
@@ -543,5 +543,21 @@ footer {
 
 .deemphasize {
     font-style: italic;
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.journal {
+  font-style: italic;
+}
+
+.in-press-tag {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 6px;
+  font-size: 0.75em;
+  color: #555;
+  background-color: #eee;
+  border-radius: 4px;
+  font-weight: 500;
+  font-style: normal;
 }
